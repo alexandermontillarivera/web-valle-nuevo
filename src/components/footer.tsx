@@ -7,7 +7,7 @@ const navLinks = [
   { label: "Biodiversidad", href: "#biodiversidad" },
   { label: "Clima", href: "#clima" },
   { label: "Cuencas", href: "#cuencas" },
-  { label: "Conservaci贸n", href: "#conservacion" },
+  { label: "Conservación", href: "#conservacion" },
 ]
 
 export default function Footer() {
@@ -25,8 +25,8 @@ export default function Footer() {
                 </span>
               </div>
               <p className="mt-4 max-w-xs text-sm text-muted-foreground leading-relaxed">
-                Web documental dedicada a la preservaci贸n y difusi贸n del
-                patrimonio natural del Parque Nacional Valle Nuevo, Rep煤blica
+                Web documental dedicada a la preservación y difusión del
+                patrimonio natural del Parque Nacional Valle Nuevo, República
                 Dominicana.
               </p>
             </div>
@@ -34,7 +34,7 @@ export default function Footer() {
             {/* Navigation */}
             <div>
               <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-foreground">
-                Navegaci贸n
+                Navegación
               </h4>
               <nav className="flex flex-col gap-2">
                 {navLinks.map((link) => (
@@ -52,15 +52,15 @@ export default function Footer() {
             {/* Info */}
             <div>
               <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-foreground">
-                Informaci贸n
+                Información
               </h4>
               <div className="flex flex-col gap-3">
                 <div className="flex items-start gap-2">
                   <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
                   <p className="text-sm text-muted-foreground">
-                    Cordillera Central, Rep煤blica Dominicana
+                    Cordillera Central, República Dominicana
                     <br />
-                    Provincias: La Vega, Monse帽or Nouel, Azua, San Jos茅 de Ocoa
+                    Provincias: La Vega, Monseñor Nouel, Azua, San José de Ocoa
                   </p>
                 </div>
                 <div className="flex items-start gap-2">
@@ -80,10 +80,10 @@ export default function Footer() {
         <div className="border-t border-border py-6">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-xs text-muted-foreground">
-              Web documental con fines educativos y de conservaci贸n.
+              Web documental con fines educativos y de conservación.
             </p>
             <p className="text-xs text-muted-foreground">
-              Las im谩genes son ilustrativas. Datos basados en investigaciones cient铆ficas publicadas.
+              Las imágenes son ilustrativas. Datos basados en investigaciones científicas publicadas.
             </p>
           </div>
         </div>

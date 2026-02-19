@@ -6,23 +6,23 @@ import { Droplets } from "lucide-react"
 
 const rivers = [
   {
-    name: "R铆o Nizao",
-    description: "Abastece la presa de Valdesia y suministra agua a Santo Domingo y San Crist贸bal.",
+    name: "Río Nizao",
+    description: "Abastece la presa de Valdesia y suministra agua a Santo Domingo y San Cristóbal.",
     population: "3.5 millones",
   },
   {
-    name: "R铆o Ocoa",
-    description: "Fuente principal de agua para el Valle de San Juan de la Maguana y sus comunidades agr铆colas.",
+    name: "Río Ocoa",
+    description: "Fuente principal de agua para el Valle de San Juan de la Maguana y sus comunidades agrícolas.",
     population: "500 mil",
   },
   {
-    name: "R铆o Las Cuevas",
+    name: "Río Las Cuevas",
     description: "Alimenta sistemas de riego y acueductos de comunidades en la vertiente sur de la Cordillera Central.",
     population: "200 mil",
   },
   {
-    name: "R铆o Yuna (afluentes)",
-    description: "Los tributarios que nacen en Valle Nuevo contribuyen al sistema del r铆o Yuna en el Cibao oriental.",
+    name: "Río Yuna (afluentes)",
+    description: "Los tributarios que nacen en Valle Nuevo contribuyen al sistema del río Yuna en el Cibao oriental.",
     population: "1.2 millones",
   },
 ]
@@ -68,15 +68,15 @@ export default function WatershedSection() {
           {/* Content */}
           <div>
             <span className="mb-3 inline-block text-sm font-medium uppercase tracking-widest text-accent">
-              F谩brica de Agua
+              Fábrica de Agua
             </span>
             <h2 className="font-serif text-4xl font-bold text-foreground md:text-5xl text-balance">
-              Cuencas Hidrogr谩ficas
+              Cuencas Hidrográficas
             </h2>
             <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-              Valle Nuevo es la principal f谩brica de agua de la Rep煤blica Dominicana. 
-              De sus monta帽as nacen r铆os que abastecen a m谩s de 5 millones de personas 
-              y alimentan los principales sistemas de riego del pa铆s.
+              Valle Nuevo es la principal fábrica de agua de la República Dominicana.
+              De sus montañas nacen ríos que abastecen a más de 5 millones de personas
+              y alimentan los principales sistemas de riego del país.
             </p>
 
             <div className="mt-10 flex flex-col gap-6">
@@ -120,7 +120,7 @@ export default function WatershedSection() {
             <div className="relative overflow-hidden rounded-2xl">
               <Image
                 src="/images/river-watershed.jpg"
-                alt="R铆o cristalino naciendo en Valle Nuevo"
+                alt="Río cristalino naciendo en Valle Nuevo"
                 width={700}
                 height={900}
                 className="h-[500px] w-full object-cover md:h-[600px]"
@@ -129,8 +129,8 @@ export default function WatershedSection() {
               <div className="absolute bottom-6 left-6 right-6">
                 <div className="rounded-xl bg-background/80 p-4 backdrop-blur-sm">
                   <p className="text-center text-sm font-medium text-foreground">
-                    De estas cumbres nacen los r铆os que dan vida a m谩s del{" "}
-                    <span className="font-bold text-accent">50%</span> de la poblaci贸n dominicana
+                    De estas cumbres nacen los ríos que dan vida a más del{" "}
+                    <span className="font-bold text-accent">50%</span> de la población dominicana
                   </p>
                 </div>
               </div>

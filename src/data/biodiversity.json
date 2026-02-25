@@ -31,21 +31,21 @@
       {
         "name": "Pico Cruzado Hispaniolano",
         "scientific": "Loxia megaplaga",
-        "image": "/images/bird-endemic.jpg",
+        "image": "/aves/loxia-megaplaga.jpg",
         "status": "En Peligro",
         "description": "Ave endémica de La Hispaniola asociada a bosques de pino criollo. Su pico cruzado le permite extraer semillas de los conos. Valle Nuevo constituye uno de sus hábitats principales."
       },
       {
         "name": "Ciguita Aliblanca",
         "scientific": "Xenoligea montana",
-        "image": "/images/cloud-forest.jpg",
+        "image": "/aves/xenoligea-montana.jpg",
         "status": "Casi Amenazada",
         "description": "Ave insectívora endémica de montaña que habita bosques húmedos por encima de 1,200 m. Frecuente en áreas de bosque nublado del parque."
       },
       {
         "name": "Zorzal de La Selle",
         "scientific": "Turdus swalesi",
-        "image": "/images/pine-forest.jpg",
+        "image": "/aves/turdus-swalesi.jpg",
         "status": "En Peligro",
         "description": "Zorzal raro de alta montaña restringido a zonas elevadas de La Hispaniola. En Valle Nuevo ocupa bosques húmedos y áreas densas con sotobosque."
       }
@@ -54,21 +54,21 @@
       {
         "name": "Solenodonte",
         "scientific": "Solenodon paradoxus",
-        "image": "/images/solenodon.jpg",
+        "image": "/fauna/solenodon-paradoxus.jpg",
         "status": "En Peligro",
         "description": "Mamífero insectívoro endémico considerado fósil viviente. Posee saliva venenosa y habita bosques montanos relativamente intactos."
       },
       {
         "name": "Hutía",
         "scientific": "Plagiodontia aedium",
-        "image": "/images/cloud-forest.jpg",
+        "image": "/fauna/plagiodontia-aedium.webp",
         "status": "En Peligro",
         "description": "Roedor arborícola endémico de La Hispaniola. Habita bosques maduros y áreas montanas, incluyendo sectores del parque."
       },
       {
         "name": "Rana de Bosque Nublado",
         "scientific": "Eleutherodactylus haitianus",
-        "image": "/images/frog-endemic.jpg",
+        "image": "/fauna/Eleutherodactylus-haitianus.jpg",
         "status": "Amenazada",
         "description": "Rana endémica asociada a ambientes húmedos de montaña. Su presencia suele indicar buena calidad ecológica del bosque."
       }
@@ -77,21 +77,21 @@
       {
         "name": "Pino Criollo",
         "scientific": "Pinus occidentalis",
-        "image": "/images/pine-forest.jpg",
+        "image": "/flora/pinus-occidentalis.jpeg",
         "status": "Endémico",
         "description": "Árbol dominante de los ecosistemas de alta montaña de Valle Nuevo. Forma extensos pinares que regulan el ciclo hídrico nacional."
       },
       {
         "name": "Orquídeas de Montaña",
         "scientific": "Orchidaceae spp.",
-        "image": "/images/orchid-endemic.jpg",
+        "image": "/flora/orchidaceae-spp.jpg",
         "status": "Alta diversidad",
         "description": "Valle Nuevo alberga decenas de especies de orquídeas epífitas y terrestres asociadas a bosques húmedos y nublados."
       },
       {
         "name": "Pajón de Montaña",
         "scientific": "Danthonia domingensis",
-        "image": "/images/panoramic-valley.jpg",
+        "image": "/flora/danthonia-domingensis.jpg",
         "status": "Endémico",
         "description": "Gramínea característica de sabanas de alta montaña y mesetas frías, formando paisajes abiertos sometidos a heladas estacionales."
       }
@@ -100,21 +100,21 @@
       {
         "name": "Guabina",
         "scientific": "Gobiomorus dormitor",
-        "image": "/images/river-watershed.jpg",
-        "status": "Nativo",
+        "image": "/marine-life/gobiomorus-dormitor.jpg",
+        "status": "Estable",
         "description": "Pez de agua dulce presente en ríos de montaña y sistemas fluviales asociados al parque."
       },
       {
         "name": "Cangrejo de Río",
         "scientific": "Epilobocera sinuatifrons",
-        "image": "/images/river-watershed.jpg",
+        "image": "/marine-life/epilobocera-sinuatifrons.jpeg",
         "status": "Endémico",
         "description": "Cangrejo de agua dulce endémico del Caribe insular que habita arroyos fríos de montaña."
       },
       {
         "name": "Camarón de Agua Dulce",
         "scientific": "Atya scabra",
-        "image": "/images/river-watershed.jpg",
+        "image": "/marine-life/atya-scabra.png",
         "status": "Estable",
         "description": "Camarón filtrador que contribuye al equilibrio ecológico de ríos de montaña."
       }

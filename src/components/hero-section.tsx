@@ -22,7 +22,7 @@ export function HeroSection() {
         style={{ transform: `translateY(${offsetY * 0.3}px)` }}
       >
         <Image
-          src="/images/hero-valle-nuevo.jpg"
+          src="/valle/hero.jpeg"
           alt="Vista aérea del Parque Nacional Valle Nuevo"
           fill
           className="object-cover"

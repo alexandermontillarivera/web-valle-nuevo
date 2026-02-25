@@ -114,7 +114,7 @@ export function ConservationSection() {
               height={600}
               className="h-full w-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t " />
             <div className="absolute bottom-0 left-0 p-6 md:p-8">
               <p className="font-serif text-2xl font-bold text-white md:text-3xl text-balance">
                 {conservationData.image.title}

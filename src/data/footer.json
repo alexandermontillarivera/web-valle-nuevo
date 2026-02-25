@@ -1,0 +1,22 @@
+{
+  "brand": {
+    "name": "Valle Nuevo",
+    "description": "Web documental dedicada a la preservación y difusión del patrimonio natural del Parque Nacional Valle Nuevo, República Dominicana."
+  },
+  "navigationLabel": "Navegación",
+  "infoLabel": "Información",
+  "contact": {
+    "location": {
+      "text": "Cordillera Central, República Dominicana",
+      "subtext": "Provincias: La Vega, Monseñor Nouel, Azua, San José de Ocoa"
+    },
+    "email": {
+      "text": "Ministerio de Medio Ambiente",
+      "subtext": "ambiente.gob.do"
+    }
+  },
+  "bottom": {
+    "text1": "Web documental con fines educativos y de conservación.",
+    "text2": "Las imágenes son ilustrativas. Datos basados en investigaciones científicas publicadas."
+  }
+}

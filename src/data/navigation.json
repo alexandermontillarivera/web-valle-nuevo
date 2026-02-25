@@ -1,0 +1,32 @@
+{
+  "links": [
+    {
+      "label": "Inicio",
+      "href": "#inicio"
+    },
+    {
+      "label": "Ecosistemas",
+      "href": "#ecosistemas"
+    },
+    {
+      "label": "Biodiversidad",
+      "href": "#biodiversidad"
+    },
+    {
+      "label": "Mapa 3D",
+      "href": "#mapa"
+    },
+    {
+      "label": "Clima",
+      "href": "#clima"
+    },
+    {
+      "label": "Cuencas",
+      "href": "#cuencas"
+    },
+    {
+      "label": "Conservación",
+      "href": "#conservacion"
+    }
+  ]
+}

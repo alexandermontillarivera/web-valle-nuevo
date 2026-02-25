@@ -1,0 +1,116 @@
+{
+  "section": {
+    "label": "Condiciones Atmosféricas",
+    "title": "Clima de Montaña",
+    "description": "Valle Nuevo posee un microclima único en el Caribe: temperaturas que pueden descender bajo cero, heladas frecuentes y una neblina persistente que envuelve sus cumbres."
+  },
+  "climateData": [
+    {
+      "month": "Ene",
+      "tempMax": 17,
+      "tempMin": 3,
+      "precipitacion": 75
+    },
+    {
+      "month": "Feb",
+      "tempMax": 18,
+      "tempMin": 3,
+      "precipitacion": 60
+    },
+    {
+      "month": "Mar",
+      "tempMax": 19,
+      "tempMin": 4,
+      "precipitacion": 85
+    },
+    {
+      "month": "Abr",
+      "tempMax": 20,
+      "tempMin": 6,
+      "precipitacion": 140
+    },
+    {
+      "month": "May",
+      "tempMax": 20,
+      "tempMin": 7,
+      "precipitacion": 250
+    },
+    {
+      "month": "Jun",
+      "tempMax": 20,
+      "tempMin": 8,
+      "precipitacion": 200
+    },
+    {
+      "month": "Jul",
+      "tempMax": 20,
+      "tempMin": 8,
+      "precipitacion": 185
+    },
+    {
+      "month": "Ago",
+      "tempMax": 20,
+      "tempMin": 8,
+      "precipitacion": 215
+    },
+    {
+      "month": "Sep",
+      "tempMax": 20,
+      "tempMin": 7,
+      "precipitacion": 235
+    },
+    {
+      "month": "Oct",
+      "tempMax": 19,
+      "tempMin": 6,
+      "precipitacion": 265
+    },
+    {
+      "month": "Nov",
+      "tempMax": 18,
+      "tempMin": 4,
+      "precipitacion": 165
+    },
+    {
+      "month": "Dic",
+      "tempMax": 17,
+      "tempMin": 3,
+      "precipitacion": 85
+    }
+  ],
+  "stats": [
+    {
+      "icon": "Thermometer",
+      "label": "Temperatura Promedio",
+      "value": "12°C",
+      "detail": "Puede descender por debajo de 0°C en los meses más fríos (heladas)"
+    },
+    {
+      "icon": "Droplets",
+      "label": "Precipitación Anual",
+      "value": "1,960 mm",
+      "detail": "Más lluvias entre mayo y octubre"
+    },
+    {
+      "icon": "Wind",
+      "label": "Altitud Promedio",
+      "value": "2,200 m",
+      "detail": "Meseta principal ≈2,200–2,400 msnm; punto más alto: 2,842 msnm"
+    },
+    {
+      "icon": "Sun",
+      "label": "Humedad Relativa",
+      "value": "85%",
+      "detail": "Niebla frecuente durante todo el año"
+    }
+  ],
+  "chart": {
+    "title": "Variación Climática Anual",
+    "description": "Temperatura y precipitación mensual promedio",
+    "labels": {
+      "tempMax": "Temp. Máx",
+      "tempMin": "Temp. Mín",
+      "precip": "Precipitación"
+    }
+  }
+}

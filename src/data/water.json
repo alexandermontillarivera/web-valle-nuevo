@@ -1,0 +1,37 @@
+{
+  "section": {
+    "label": "Fábrica de Agua",
+    "title": "Cuencas Hidrográficas",
+    "description": "El Parque Nacional Valle Nuevo es una de las principales zonas productoras de agua de la República Dominicana. En sus montañas nacen importantes ríos que abastecen acueductos, presas y sistemas de riego de distintas regiones del país."
+  },
+  "rivers": [
+    {
+      "name": "Río Nizao",
+      "description": "Nace en la Cordillera Central y alimenta el complejo de presas Valdesia, Jigüey y Aguacate, contribuyendo al suministro de agua para Santo Domingo, San Cristóbal y zonas agrícolas del sur.",
+      "population": "Millones de habitantes de forma indirecta"
+    },
+    {
+      "name": "Río Ocoa",
+      "description": "Se origina en áreas montañosas cercanas y abastece comunidades y sistemas agrícolas de la provincia San José de Ocoa y zonas vecinas.",
+      "population": "Decenas de miles de habitantes"
+    },
+    {
+      "name": "Río Las Cuevas",
+      "description": "Afluente importante del sistema Yaque del Sur que aporta agua para riego agrícola y comunidades de la vertiente sur de la Cordillera Central.",
+      "population": "Comunidades rurales y sistemas de riego regionales"
+    },
+    {
+      "name": "Río Blanco",
+      "description": "Nace en las alturas de Valle Nuevo y alimenta arroyos y ríos de la vertiente sur, aportando a sistemas de riego y ecosistemas fluviales de montaña.",
+      "population": "Comunidades locales y sistemas de riego"
+    }
+  ],
+  "image": {
+    "src": "/images/river-watershed.jpg",
+    "alt": "Río cristalino naciendo en Valle Nuevo",
+    "caption": "De estas cumbres nacen ríos que sostienen acueductos, presas y sistemas de riego en",
+    "highlight": " múltiples regiones",
+    "suffix": " de la República Dominicana"
+  },
+  "note": "Además de estos ríos principales, múltiples nacientes y microcuencas de la Cordillera Central contribuyen a otros sistemas fluviales del país (incluyendo aportes indirectos al sistema Yuna)."
+}

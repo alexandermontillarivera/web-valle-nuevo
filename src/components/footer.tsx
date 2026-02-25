@@ -1,14 +1,6 @@
 import { TreePine, MapPin, Mail } from "lucide-react"
-
-const navLinks = [
-  { label: "Inicio", href: "#inicio" },
-  { label: "Ecosistemas", href: "#ecosistemas" },
-  { label: "Mapa 3D", href: "#mapa" },
-  { label: "Biodiversidad", href: "#biodiversidad" },
-  { label: "Clima", href: "#clima" },
-  { label: "Cuencas", href: "#cuencas" },
-  { label: "Conservación", href: "#conservacion" },
-]
+import footerData from "../data/footer.json"
+import navData from "../data/navigation.json"
 
 export default function Footer() {
   return (
@@ -21,23 +13,21 @@ export default function Footer() {
               <div className="flex items-center gap-2">
                 <TreePine className="h-6 w-6 text-accent" />
                 <span className="font-serif text-xl font-bold text-foreground">
-                  Valle Nuevo
+                  {footerData.brand.name}
                 </span>
               </div>
               <p className="mt-4 max-w-xs text-sm text-muted-foreground leading-relaxed">
-                Web documental dedicada a la preservación y difusión del
-                patrimonio natural del Parque Nacional Valle Nuevo, República
-                Dominicana.
+                {footerData.brand.description}
               </p>
             </div>
 
             {/* Navigation */}
             <div>
               <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-foreground">
-                Navegación
+                {footerData.navigationLabel}
               </h4>
               <nav className="flex flex-col gap-2">
-                {navLinks.map((link) => (
+                {navData.links.map((link) => (
                   <a
                     key={link.label}
                     href={link.href}
@@ -52,23 +42,23 @@ export default function Footer() {
             {/* Info */}
             <div>
               <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-foreground">
-                Información
+                {footerData.infoLabel}
               </h4>
               <div className="flex flex-col gap-3">
                 <div className="flex items-start gap-2">
                   <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
                   <p className="text-sm text-muted-foreground">
-                    Cordillera Central, República Dominicana
+                    {footerData.contact.location.text}
                     <br />
-                    Provincias: La Vega, Monseñor Nouel, Azua, San José de Ocoa
+                    {footerData.contact.location.subtext}
                   </p>
                 </div>
                 <div className="flex items-start gap-2">
                   <Mail className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
                   <p className="text-sm text-muted-foreground">
-                    Ministerio de Medio Ambiente
+                    {footerData.contact.email.text}
                     <br />
-                    ambiente.gob.do
+                    {footerData.contact.email.subtext}
                   </p>
                 </div>
               </div>
@@ -80,10 +70,10 @@ export default function Footer() {
         <div className="border-t border-border py-6">
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-xs text-muted-foreground">
-              Web documental con fines educativos y de conservación.
+              {footerData.bottom.text1}
             </p>
             <p className="text-xs text-muted-foreground">
-              Las imágenes son ilustrativas. Datos basados en investigaciones científicas publicadas.
+              {footerData.bottom.text2}
             </p>
           </div>
         </div>

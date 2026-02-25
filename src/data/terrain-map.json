@@ -1,0 +1,100 @@
+{
+  "section": {
+    "label": "Mapa Interactivo",
+    "title": "Explora el Terreno",
+    "description": "Navega por el relieve tridimensional del parque. Arrastra para rotar, desplaza la rueda para acercar y haz clic en los puntos de interés para descubrir más."
+  },
+  "pois": [
+    {
+      "id": "alto-de-la-bandera",
+      "name": "Alto de la Bandera",
+      "elevation": "2,842 m",
+      "description": "Uno de los puntos más altos del país dentro del parque; vistas amplias y clima frío frecuente.",
+      "position": [
+        1.6,
+        1.05,
+        -2.1
+      ]
+    },
+    {
+      "id": "piramide-ciclopea",
+      "name": "La Pirámide",
+      "elevation": "Zona alta (Carretera 41)",
+      "description": "Monumento conocido como Pirámide Ciclópea, en el área del Valle de los Frailes, junto a la Carretera 41 que cruza el parque.",
+      "position": [
+        -0.6,
+        0.72,
+        -0.4
+      ]
+    },
+    {
+      "id": "sabana-queliz",
+      "name": "Sabana Quéliz",
+      "elevation": "Altiplano / humedal",
+      "description": "Valle-humedal emblemático del altiplano; suele amanecer con neblina y escarcha en temporada fría.",
+      "position": [
+        -2.2,
+        0.62,
+        -1.3
+      ]
+    },
+    {
+      "id": "la-nevera",
+      "name": "La Nevera",
+      "elevation": "Zona fría",
+      "description": "Paraje muy conocido por las temperaturas bajas; referencia frecuente en recorridos por la Carretera 41.",
+      "position": [
+        -1.4,
+        0.68,
+        0.2
+      ]
+    },
+    {
+      "id": "valle-de-los-frailes",
+      "name": "Valle de los Frailes",
+      "elevation": "Altiplanicie",
+      "description": "Área amplia del altiplano donde se ubican hitos como Las Pirámides; paisaje abierto y ventoso.",
+      "position": [
+        0.2,
+        0.66,
+        -1.0
+      ]
+    },
+    {
+      "id": "monumento-camanno",
+      "name": "Monumento a Caamaño",
+      "elevation": "Sector Nizaíto",
+      "description": "Monumento y lugar histórico dentro de los límites del parque, asociado a hechos de 1973.",
+      "position": [
+        2.6,
+        0.55,
+        0.9
+      ]
+    },
+    {
+      "id": "villa-pajon",
+      "name": "Villa Pajón",
+      "elevation": "Instalaciones dentro del parque",
+      "description": "Centro/Villa para visitantes y hospedaje limitado (referencia común para excursiones y logística).",
+      "position": [
+        1.1,
+        0.6,
+        1.8
+      ]
+    },
+    {
+      "id": "aguas-blancas",
+      "name": "Salto de Aguas Blancas",
+      "elevation": "Cascada (≈60 m)",
+      "description": "Cascada muy visitada en el entorno de Constanza, frecuentemente incluida en rutas turísticas asociadas a Valle Nuevo.",
+      "position": [
+        -3.0,
+        0.35,
+        2.4
+      ]
+    }
+  ],
+  "controls": {
+    "hint": "Clic + arrastrar para rotar"
+  }
+}

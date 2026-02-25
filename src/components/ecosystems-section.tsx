@@ -3,108 +3,46 @@
 import { useState } from "react"
 import Image from "next/image"
 import { TreePine, Cloud, Flower2, Waves } from "lucide-react"
+import ecosystemsData from "../data/ecosystems.json"
 
-const ecosystems = [
-  {
-    id: "pinos",
-    title: "Bosque de Pinos",
-    subtitle: "Pinus occidentalis",
-    icon: TreePine,
-    image: "/images/pine-forest.jpg",
-    elevation: "1,500 - 2,800 m",
-    description:
-      "El bosque de Pinus occidentalis es el ecosistema dominante de Valle Nuevo. Estos pinos endemicos de La Hispaniola forman densos rodales que cubren las laderas de la Cordillera Central, alcanzando alturas de hasta 30 metros. El sotobosque alberga helechos arborescentes, musgos y una rica comunidad de epifitas.",
-    facts: [
-      "Especie endemica de La Hispaniola",
-      "Adaptado a suelos acidos y pobres",
-      "Resistente a incendios forestales",
-      "Habitat critico para aves endemicas",
-    ],
-  },
-  {
-    id: "nublado",
-    title: "Bosque Nublado",
-    subtitle: "Cloud Forest",
-    icon: Cloud,
-    image: "/images/cloud-forest.jpg",
-    elevation: "1,800 - 2,500 m",
-    description:
-      "Los bosques nublados de Valle Nuevo se encuentran en las zonas mas humedas, donde la niebla persistente crea un ambiente saturado de humedad. Las ramas de los arboles estan cubiertas de musgos, liquenes y bromelias, formando jardines aereos que capturan el agua de las nubes y la canalizan hacia el suelo.",
-    facts: [
-      "Captacion de agua por niebla",
-      "Alta diversidad de epifitas",
-      "Temperatura promedio de 12°C",
-      "Ecosistema extremadamente fragil",
-    ],
-  },
-  {
-    id: "paramo",
-    title: "Paramo de Altura",
-    subtitle: "Sabana de Pajones",
-    icon: Flower2,
-    image: "/images/panoramic-valley.jpg",
-    elevation: "2,200 - 2,842 m",
-    description:
-      "El paramo de Valle Nuevo es unico en las Antillas: extensas sabanas de pajones (Danthonia domingensis) se extienden sobre las mesetas a mas de 2,200 metros. Al amanecer, la escarcha cubre el paisaje creando una estampa irreal. Este ecosistema alberga especies de plantas endemicas adaptadas al frio y la radiacion UV intensa.",
-    facts: [
-      "Unico paramo antillano",
-      "Heladas frecuentes bajo 0°C",
-      "Danthonia domingensis dominante",
-      "Suelos volcanicos antiguos",
-    ],
-  },
-  {
-    id: "rios",
-    title: "Ecosistemas Fluviales",
-    subtitle: "Nacimientos de Rios",
-    icon: Waves,
-    image: "/images/river-watershed.jpg",
-    elevation: "1,200 - 2,200 m",
-    description:
-      "Valle Nuevo es la mayor fabrica de agua de la Republica Dominicana. De sus montanas nacen los rios Nizao, Ocoa, Las Cuevas y Blanco, cuyas aguas cristalinas descienden por cascadas y arroyos de montana, sustentando ecosistemas acuaticos unicos con especies de peces y crustaceos endemicos.",
-    facts: [
-      "4 cuencas hidrograficas principales",
-      "Abastece millones de personas",
-      "Aguas extremadamente puras",
-      "Especies acuaticas endemicas",
-    ],
-  },
-]
+const iconMap = {
+  TreePine,
+  Cloud,
+  Flower2,
+  Waves,
+}
 
 export function EcosystemsSection() {
   const [active, setActive] = useState("pinos")
-  const current = ecosystems.find((e) => e.id === active)!
+  const current = ecosystemsData.ecosystems.find((e) => e.id === active)!
 
   return (
     <section id="ecosistemas" className="relative py-24 lg:py-32">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-primary">
-            Ecosistemas
+            {ecosystemsData.section.label}
           </p>
           <h2 className="mt-3 font-serif text-3xl font-bold text-foreground md:text-4xl lg:text-5xl text-balance">
-            Cuatro Mundos en Una Montana
+            {ecosystemsData.section.title}
           </h2>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-            Desde los bosques de pinos hasta el paramo de altura, Valle Nuevo
-            alberga una gradiente ecologica fascinante donde cada piso altitudinal
-            revela un ecosistema distinto.
+            {ecosystemsData.section.description}
           </p>
         </div>
 
         {/* Ecosystem tabs */}
         <div className="mt-12 flex flex-wrap justify-center gap-3">
-          {ecosystems.map((eco) => {
-            const Icon = eco.icon
+          {ecosystemsData.ecosystems.map((eco) => {
+            const Icon = iconMap[eco.icon as keyof typeof iconMap]
             return (
               <button
                 key={eco.id}
                 onClick={() => setActive(eco.id)}
-                className={`inline-flex items-center gap-2 rounded-lg border px-4 py-2.5 text-sm font-medium transition-all ${
-                  active === eco.id
+                className={`inline-flex items-center gap-2 rounded-lg border px-4 py-2.5 text-sm font-medium transition-all ${active === eco.id
                     ? "border-primary bg-primary/10 text-primary"
                     : "border-border bg-card text-muted-foreground hover:border-primary/30 hover:text-foreground"
-                }`}
+                  }`}
               >
                 <Icon className="h-4 w-4" />
                 <span className="hidden sm:inline">{eco.title}</span>

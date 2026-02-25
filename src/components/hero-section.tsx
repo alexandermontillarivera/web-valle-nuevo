@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import Image from "next/image"
 import { ChevronDown } from "lucide-react"
+import heroData from "../data/hero.json"
 
 export function HeroSection() {
   const [offsetY, setOffsetY] = useState(0)
@@ -22,7 +23,7 @@ export function HeroSection() {
       >
         <Image
           src="/images/hero-valle-nuevo.jpg"
-          alt="Vista aerea del Parque Nacional Valle Nuevo"
+          alt="Vista aérea del Parque Nacional Valle Nuevo"
           fill
           className="object-cover"
           priority
@@ -34,29 +35,27 @@ export function HeroSection() {
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
         <div className="max-w-4xl">
           <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-primary lg:text-base">
-            Parque Nacional
+            {heroData.label}
           </p>
           <h1 className="font-serif text-5xl font-bold leading-tight text-foreground md:text-7xl lg:text-8xl xl:text-9xl">
-            Valle Nuevo
+            {heroData.title}
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg lg:text-xl">
-            Un santuario de vida en las alturas de la Cordillera Central dominicana.
-            Hogar de bosques de pinos milenarios, especies endemicas y nacimientos
-            de los rios mas importantes de la isla.
+          <p className="mx-auto mt-6 max-w-2xl text-white leading-relaxed text-muted-foreground md:text-lg lg:text-xl">
+            {heroData.description}
           </p>
 
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
               href="#ecosistemas"
-              className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-all hover:brightness-110"
+              className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition-all text-white hover:brightness-110"
             >
-              Explorar
+              {heroData.buttons.primary}
             </a>
             <a
               href="#mapa"
               className="inline-flex items-center gap-2 rounded-lg border border-border bg-secondary/50 px-6 py-3 text-sm font-semibold text-foreground backdrop-blur-sm transition-all hover:bg-secondary"
             >
-              Mapa 3D Interactivo
+              {heroData.buttons.secondary}
             </a>
           </div>
         </div>
@@ -64,7 +63,7 @@ export function HeroSection() {
         {/* Scroll indicator */}
         <div className="absolute bottom-8 flex flex-col items-center gap-2">
           <span className="text-xs uppercase tracking-widest text-muted-foreground">
-            Descubre
+            {heroData.scrollIndicator}
           </span>
           <ChevronDown className="h-5 w-5 animate-bounce text-primary" />
         </div>
@@ -73,12 +72,7 @@ export function HeroSection() {
       {/* Stats bar */}
       <div className="absolute bottom-0 left-0 right-0 z-10 border-t border-border/50 bg-background/80 backdrop-blur-md">
         <div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-border/50 md:grid-cols-4">
-          {[
-            { value: "910", unit: "km2", label: "Area Protegida" },
-            { value: "2,842", unit: "m", label: "Punto Mas Alto" },
-            { value: "500+", unit: "", label: "Especies de Flora" },
-            { value: "4", unit: "", label: "Rios Principales" },
-          ].map((stat) => (
+          {heroData.stats.map((stat) => (
             <div key={stat.label} className="px-4 py-4 text-center lg:py-5">
               <p className="font-serif text-xl font-bold text-foreground lg:text-2xl">
                 {stat.value}

@@ -1,0 +1,32 @@
+{
+  "label": "Parque Nacional",
+  "title": "Valle Nuevo",
+  "description": "Un santuario de vida en las alturas de la Cordillera Central dominicana. Hogar de extensos bosques de pino criollo, numerosas especies endémicas y cabecera de importantes sistemas hidrográficos de la isla.",
+  "buttons": {
+    "primary": "Explorar",
+    "secondary": "Mapa 3D Interactivo"
+  },
+  "scrollIndicator": "Descubre",
+  "stats": [
+    {
+      "value": "910",
+      "unit": "km²",
+      "label": "Área Protegida"
+    },
+    {
+      "value": "2,842",
+      "unit": "m",
+      "label": "Punto Más Alto"
+    },
+    {
+      "value": "500+",
+      "unit": "",
+      "label": "Especies de Flora (aprox.)"
+    },
+    {
+      "value": "4",
+      "unit": "",
+      "label": "Ríos Principales"
+    }
+  ]
+}

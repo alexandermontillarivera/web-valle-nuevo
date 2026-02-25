@@ -1,0 +1,148 @@
+{
+  "section": {
+    "label": "Biodiversidad",
+    "title": "Especies Únicas en el Caribe",
+    "description": "El Parque Nacional Valle Nuevo alberga ecosistemas de alta montaña únicos en el Caribe, con numerosas especies endémicas de La Hispaniola adaptadas al frío, la neblina y los bosques de pino y nublados."
+  },
+  "categories": [
+    {
+      "id": "aves",
+      "label": "Aves",
+      "icon": "Bird"
+    },
+    {
+      "id": "fauna",
+      "label": "Fauna",
+      "icon": "Bug"
+    },
+    {
+      "id": "flora",
+      "label": "Flora",
+      "icon": "Flower2"
+    },
+    {
+      "id": "acuatica",
+      "label": "Vida Acuática",
+      "icon": "Fish"
+    }
+  ],
+  "species": {
+    "aves": [
+      {
+        "name": "Pico Cruzado Hispaniolano",
+        "scientific": "Loxia megaplaga",
+        "image": "/images/bird-endemic.jpg",
+        "status": "En Peligro",
+        "description": "Ave endémica de La Hispaniola asociada a bosques de pino criollo. Su pico cruzado le permite extraer semillas de los conos. Valle Nuevo constituye uno de sus hábitats principales."
+      },
+      {
+        "name": "Ciguita Aliblanca",
+        "scientific": "Xenoligea montana",
+        "image": "/images/cloud-forest.jpg",
+        "status": "Casi Amenazada",
+        "description": "Ave insectívora endémica de montaña que habita bosques húmedos por encima de 1,200 m. Frecuente en áreas de bosque nublado del parque."
+      },
+      {
+        "name": "Zorzal de La Selle",
+        "scientific": "Turdus swalesi",
+        "image": "/images/pine-forest.jpg",
+        "status": "En Peligro",
+        "description": "Zorzal raro de alta montaña restringido a zonas elevadas de La Hispaniola. En Valle Nuevo ocupa bosques húmedos y áreas densas con sotobosque."
+      }
+    ],
+    "fauna": [
+      {
+        "name": "Solenodonte",
+        "scientific": "Solenodon paradoxus",
+        "image": "/images/solenodon.jpg",
+        "status": "En Peligro",
+        "description": "Mamífero insectívoro endémico considerado fósil viviente. Posee saliva venenosa y habita bosques montanos relativamente intactos."
+      },
+      {
+        "name": "Hutía",
+        "scientific": "Plagiodontia aedium",
+        "image": "/images/cloud-forest.jpg",
+        "status": "En Peligro",
+        "description": "Roedor arborícola endémico de La Hispaniola. Habita bosques maduros y áreas montanas, incluyendo sectores del parque."
+      },
+      {
+        "name": "Rana de Bosque Nublado",
+        "scientific": "Eleutherodactylus haitianus",
+        "image": "/images/frog-endemic.jpg",
+        "status": "Amenazada",
+        "description": "Rana endémica asociada a ambientes húmedos de montaña. Su presencia suele indicar buena calidad ecológica del bosque."
+      }
+    ],
+    "flora": [
+      {
+        "name": "Pino Criollo",
+        "scientific": "Pinus occidentalis",
+        "image": "/images/pine-forest.jpg",
+        "status": "Endémico",
+        "description": "Árbol dominante de los ecosistemas de alta montaña de Valle Nuevo. Forma extensos pinares que regulan el ciclo hídrico nacional."
+      },
+      {
+        "name": "Orquídeas de Montaña",
+        "scientific": "Orchidaceae spp.",
+        "image": "/images/orchid-endemic.jpg",
+        "status": "Alta diversidad",
+        "description": "Valle Nuevo alberga decenas de especies de orquídeas epífitas y terrestres asociadas a bosques húmedos y nublados."
+      },
+      {
+        "name": "Pajón de Montaña",
+        "scientific": "Danthonia domingensis",
+        "image": "/images/panoramic-valley.jpg",
+        "status": "Endémico",
+        "description": "Gramínea característica de sabanas de alta montaña y mesetas frías, formando paisajes abiertos sometidos a heladas estacionales."
+      }
+    ],
+    "acuatica": [
+      {
+        "name": "Guabina",
+        "scientific": "Gobiomorus dormitor",
+        "image": "/images/river-watershed.jpg",
+        "status": "Nativo",
+        "description": "Pez de agua dulce presente en ríos de montaña y sistemas fluviales asociados al parque."
+      },
+      {
+        "name": "Cangrejo de Río",
+        "scientific": "Epilobocera sinuatifrons",
+        "image": "/images/river-watershed.jpg",
+        "status": "Endémico",
+        "description": "Cangrejo de agua dulce endémico del Caribe insular que habita arroyos fríos de montaña."
+      },
+      {
+        "name": "Camarón de Agua Dulce",
+        "scientific": "Atya scabra",
+        "image": "/images/river-watershed.jpg",
+        "status": "Estable",
+        "description": "Camarón filtrador que contribuye al equilibrio ecológico de ríos de montaña."
+      }
+    ]
+  },
+  "stats": {
+    "title": "Valle Nuevo en Números",
+    "items": [
+      {
+        "value": "66",
+        "label": "Especies de Aves",
+        "detail": "Especies registradas (incluye endémicas de La Hispaniola)"
+      },
+      {
+        "value": "531",
+        "label": "Especies de Plantas",
+        "detail": "≈138 endémicas de La Hispaniola (reportadas)"
+      },
+      {
+        "value": "40+",
+        "label": "Especies de Orquídeas",
+        "detail": "Registro variable según estudios/zonas"
+      },
+      {
+        "value": "46",
+        "label": "Especies de Reptiles y Anfibios",
+        "detail": "29 reptiles + 17 anfibios (reportados)"
+      }
+    ]
+  }
+}

@@ -2,15 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Menu, X, Mountain } from "lucide-react"
-
-const navLinks = [
-  { label: "Inicio", href: "#inicio" },
-  { label: "Ecosistemas", href: "#ecosistemas" },
-  { label: "Biodiversidad", href: "#biodiversidad" },
-  { label: "Mapa 3D", href: "#mapa" },
-  { label: "Clima", href: "#clima" },
-  { label: "Conservacion", href: "#conservacion" },
-]
+import navData from "../data/navigation.json"
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -26,11 +18,10 @@ export function Navigation() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? "bg-background/90 backdrop-blur-md border-b border-border"
-          : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
+        ? "bg-background/90 backdrop-blur-md border-b border-border z-50"
+        : "bg-transparent"
+        }`}
     >
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="flex h-16 items-center justify-between lg:h-20">
@@ -44,7 +35,7 @@ export function Navigation() {
 
           {/* Desktop links */}
           <div className="hidden items-center gap-8 lg:flex">
-            {navLinks.map((link) => (
+            {navData.links.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
@@ -68,12 +59,11 @@ export function Navigation() {
 
       {/* Mobile menu */}
       <div
-        className={`overflow-hidden transition-all duration-300 lg:hidden ${
-          isOpen ? "max-h-96 border-b border-border" : "max-h-0"
-        }`}
+        className={`overflow-hidden transition-all duration-300 lg:hidden ${isOpen ? "max-h-96 border-b border-border" : "max-h-0"
+          }`}
       >
         <div className="space-y-1 bg-background/95 px-4 pb-4 backdrop-blur-md">
-          {navLinks.map((link) => (
+          {navData.links.map((link) => (
             <a
               key={link.href}
               href={link.href}

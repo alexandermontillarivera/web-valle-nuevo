@@ -1,0 +1,65 @@
+{
+  "section": {
+    "label": "Protegiendo el Futuro",
+    "title": "Conservación",
+    "description": "La preservación de Valle Nuevo es fundamental para la seguridad hídrica de la República Dominicana y la supervivencia de numerosas especies endémicas."
+  },
+  "threats": [
+    {
+      "icon": "Flame",
+      "title": "Incendios Forestales",
+      "description": "Los incendios, frecuentemente asociados a prácticas agrícolas y condiciones climáticas secas, representan una de las principales amenazas para los bosques de pino y los ecosistemas de alta montaña.",
+      "severity": "Crítica"
+    },
+    {
+      "icon": "TreePine",
+      "title": "Deforestación",
+      "description": "La expansión agrícola histórica y la tala ilegal han reducido la cobertura boscosa, especialmente en zonas de amortiguamiento y áreas intervenidas del parque.",
+      "severity": "Alta"
+    },
+    {
+      "icon": "Users",
+      "title": "Asentamientos Ilegales",
+      "description": "La presencia y expansión de asentamientos dentro y en el entorno del parque ha generado presión sobre los recursos naturales y fragmentación de hábitats.",
+      "severity": "Moderada"
+    }
+  ],
+  "efforts": [
+    {
+      "year": "1983",
+      "title": "Reserva Científica",
+      "description": "La zona fue declarada reserva científica mediante decreto, iniciando su protección formal como área de alta montaña."
+    },
+    {
+      "year": "1996",
+      "title": "Categoría de Parque Nacional",
+      "description": "Un decreto reasignó el área a la categoría de Parque Nacional (Juan B. Pérez Rancier), fortaleciendo el marco de conservación y manejo."
+    },
+    {
+      "year": "Década de 2000",
+      "title": "Planes de Manejo y Vigilancia",
+      "description": "Se impulsan planes de manejo con zonificación, control de actividades, patrullaje y programas de educación ambiental con comunidades del entorno."
+    },
+    {
+      "year": "Década de 2010",
+      "title": "Restauración y Reforestación",
+      "description": "Se ejecutan iniciativas de restauración ecológica y reforestación en áreas degradadas, priorizando especies nativas como Pinus occidentalis y la recuperación de suelos."
+    },
+    {
+      "year": "Década de 2010–2020",
+      "title": "Monitoreo de Biodiversidad",
+      "description": "Se fortalecen programas de monitoreo (incluyendo cámaras trampa y muestreos) para seguimiento de especies y evaluación del estado de los ecosistemas."
+    },
+    {
+      "year": "Década de 2020",
+      "title": "Conservación de Paisaje",
+      "description": "Se refuerzan estrategias de conectividad ecológica y manejo del paisaje en la Cordillera Central, promoviendo corredores biológicos entre áreas protegidas."
+    }
+  ],
+  "image": {
+    "src": "/images/panoramic-valley.jpg",
+    "alt": "Vista panorámica del Parque Nacional Valle Nuevo",
+    "title": "Un legado para las futuras generaciones",
+    "description": "Las acciones de conservación en Valle Nuevo contribuyen al mantenimiento del equilibrio ecológico y la seguridad hídrica nacional."
+  }
+}

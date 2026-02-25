@@ -1,0 +1,32 @@
+{
+  "section": {
+    "label": "Un Tesoro Natural",
+    "title": "La Madre de las Aguas del Caribe",
+    "description": "Ubicado en el corazón de la Cordillera Central a más de 2,200 metros sobre el nivel del mar, Valle Nuevo es uno de los ecosistemas de montaña más importantes de las Antillas. Sus sabanas de pajones, bosques de pino y bosques nublados albergan una biodiversidad excepcional y constituyen una de las principales fuentes de agua de la República Dominicana."
+  },
+  "features": [
+    {
+      "icon": "TreePine",
+      "title": "Bosques de Pino",
+      "description": "Posee la mayor extensión continua de Pinus occidentalis del Caribe, formando paisajes montanos únicos y fundamentales para la regulación hídrica y la conservación de suelos."
+    },
+    {
+      "icon": "Droplets",
+      "title": "Nacimiento de Ríos",
+      "description": "Zona de cabecera de importantes cuencas hidrográficas como los ríos Nizao, Ocoa, Las Cuevas y Blanco, que abastecen a poblaciones y sistemas agrícolas del país."
+    },
+    {
+      "icon": "Wind",
+      "title": "Clima de Montaña",
+      "description": "Presenta un microclima frío para el Caribe, con neblina frecuente, fuertes vientos y temperaturas que en invierno pueden descender por debajo de 0 °C con presencia de heladas."
+    }
+  ],
+  "heritage": {
+    "image": "/images/panoramic-valley.jpg",
+    "imageAlt": "Vista panorámica del valle con bosques de pinos",
+    "label": "Patrimonio Natural",
+    "title": "Un Páramo Tropical",
+    "description1": "Valle Nuevo presenta un paisaje inusual en el Caribe: extensas sabanas de pajones cubiertas de escarcha al amanecer, bosques densos de pinos envueltos en niebla y temperaturas frías que generan condiciones similares a ecosistemas de páramo tropical de alta montaña.",
+    "description2": "Declarado reserva científica en 1983 y recategorizado como Parque Nacional en 1996, protege aproximadamente 910 km² que incluyen elevaciones como Alto de la Bandera (2,842 m), La Pirámide (2,367 m) y amplias mesetas que conforman el sistema de alta montaña más elevado de las Antillas."
+  }
+}

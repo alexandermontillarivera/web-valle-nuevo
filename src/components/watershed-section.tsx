@@ -1,31 +1,9 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
-import Image from "next/image"
+import waterData from "../data/water.json"
 import { Droplets } from "lucide-react"
-
-const rivers = [
-  {
-    name: "Río Nizao",
-    description: "Abastece la presa de Valdesia y suministra agua a Santo Domingo y San Cristóbal.",
-    population: "3.5 millones",
-  },
-  {
-    name: "Río Ocoa",
-    description: "Fuente principal de agua para el Valle de San Juan de la Maguana y sus comunidades agrícolas.",
-    population: "500 mil",
-  },
-  {
-    name: "Río Las Cuevas",
-    description: "Alimenta sistemas de riego y acueductos de comunidades en la vertiente sur de la Cordillera Central.",
-    population: "200 mil",
-  },
-  {
-    name: "Río Yuna (afluentes)",
-    description: "Los tributarios que nacen en Valle Nuevo contribuyen al sistema del río Yuna en el Cibao oriental.",
-    population: "1.2 millones",
-  },
-]
+import Image from "next/image"
 
 function useInView(ref: React.RefObject<HTMLElement | null>, threshold = 0.15) {
   const [inView, setInView] = useState(false)
@@ -47,7 +25,7 @@ function useInView(ref: React.RefObject<HTMLElement | null>, threshold = 0.15) {
   return inView
 }
 
-export default function WatershedSection() {
+export function WatershedSection() {
   const ref = useRef<HTMLElement>(null)
   const inView = useInView(ref)
 
@@ -67,20 +45,18 @@ export default function WatershedSection() {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16 items-center">
           {/* Content */}
           <div>
-            <span className="mb-3 inline-block text-sm font-medium uppercase tracking-widest text-accent">
-              Fábrica de Agua
+            <span className="mb-3 inline-block text-sm font-medium uppercase tracking-widest text-accent ">
+              {waterData.section.label}
             </span>
             <h2 className="font-serif text-4xl font-bold text-foreground md:text-5xl text-balance">
-              Cuencas Hidrográficas
+              {waterData.section.title}
             </h2>
             <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-              Valle Nuevo es la principal fábrica de agua de la República Dominicana.
-              De sus montañas nacen ríos que abastecen a más de 5 millones de personas
-              y alimentan los principales sistemas de riego del país.
+              {waterData.section.description}
             </p>
 
             <div className="mt-10 flex flex-col gap-6">
-              {rivers.map((river, i) => (
+              {waterData.rivers.map((river, i) => (
                 <div
                   key={river.name}
                   className="flex gap-4 rounded-xl border border-border bg-card p-4 transition-all duration-500"
@@ -94,9 +70,9 @@ export default function WatershedSection() {
                     <Droplets className="h-5 w-5" />
                   </div>
                   <div>
-                    <div className="flex items-center gap-3">
+                    <div className="flex items-start gap-3">
                       <h4 className="font-semibold text-foreground">{river.name}</h4>
-                      <span className="rounded-full bg-accent/10 px-2 py-0.5 text-xs font-medium text-accent">
+                      <span className="rounded-full bg-accent/10 px-2 py-0.5 text-xs font-medium text-accent min-w-fit">
                         {river.population} personas
                       </span>
                     </div>
@@ -119,8 +95,8 @@ export default function WatershedSection() {
           >
             <div className="relative overflow-hidden rounded-2xl">
               <Image
-                src="/images/river-watershed.jpg"
-                alt="Río cristalino naciendo en Valle Nuevo"
+                src={waterData.image.src}
+                alt={waterData.image.alt}
                 width={700}
                 height={900}
                 className="h-[500px] w-full object-cover md:h-[600px]"
@@ -129,8 +105,9 @@ export default function WatershedSection() {
               <div className="absolute bottom-6 left-6 right-6">
                 <div className="rounded-xl bg-background/80 p-4 backdrop-blur-sm">
                   <p className="text-center text-sm font-medium text-foreground">
-                    De estas cumbres nacen los ríos que dan vida a más del{" "}
-                    <span className="font-bold text-accent">50%</span> de la población dominicana
+                    {waterData.image.caption}
+                    <span className="font-bold text-accent">{waterData.image.highlight}</span>
+                    {waterData.image.suffix}
                   </p>
                 </div>
               </div>

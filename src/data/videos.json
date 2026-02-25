@@ -1,0 +1,29 @@
+{
+  "section": {
+    "label": "GALERÍA AUDIOVISUAL",
+    "title": "Valle Nuevo en Video",
+    "description": "Descubre la majestuosidad de Valle Nuevo a través de estas producciones audiovisuales que capturan la esencia de uno de los ecosistemas más singulares del Caribe."
+  },
+  "videos": [
+    {
+      "id": "P513jtLQvdw",
+      "title": "Un Lugar Mágico en el Corazón de las Montañas",
+      "description": "Recorrido por los paisajes más emblemáticos de Valle Nuevo, revelando la magia de sus montañas y ecosistemas únicos."
+    },
+    {
+      "id": "UsCIUctJ4R0",
+      "title": "24 Horas en el Lugar Más Frío de República Dominicana",
+      "description": "Una aventura inmersiva explorando las temperaturas extremas y la madre de las aguas en el corazón de la cordillera."
+    },
+    {
+      "id": "WXu7FRaaJgg",
+      "title": "Historias y Leyendas que No Conocías",
+      "description": "Las historias, mitos y leyendas que envuelven a Valle Nuevo, un territorio lleno de misterio y tradición cultural."
+    },
+    {
+      "id": "RXiFKqNy-8c",
+      "title": "El Misterioso Valle Encantado",
+      "description": "Explorando los secretos del valle encantado, su biodiversidad única y los fenómenos naturales que lo hacen especial."
+    }
+  ]
+}

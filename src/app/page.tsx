@@ -1,5 +1,6 @@
 import { BiodiversitySection } from "@/components/biodiversity-section"
 import { ConservationSection } from "@/components/conservation-section"
+import { VideosSection } from "@/components/videos-section"
 import { EcosystemsSection } from "@/components/ecosystems-section"
 import { WatershedSection } from "@/components/watershed-section"
 import { ClimateSection } from "@/components/climate-section"
@@ -21,6 +22,7 @@ export default function Home() {
         <ClimateSection />
         <WatershedSection />
         <ConservationSection />
+        <VideosSection />
       </main>
     </>
   )
